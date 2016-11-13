@@ -1,0 +1,8 @@
+javascript:void function(w){'use strict';
+	var e=w.document;
+	e.title='TextPad';
+	e=e.body;
+	e.spellcheck=false;
+	e.contentEditable=true;
+	e.setAttribute('style','font:1rem/1.4 consolas,sans-serif;padding:2.4rem 3.2rem;margin:0;background:#fff;color:#302e2e;');
+}(window.open());
