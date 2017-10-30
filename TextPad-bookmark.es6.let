@@ -1,0 +1,5 @@
+javascript:void((e=>{
+    e.spellcheck=false;
+    e.contentEditable=true;
+    e.setAttribute('style','font:1rem/1.4 consolas,sans-serif;padding:2.4rem 3.2rem;margin:0;background:#fff;color:#302e2e;');
+})(window.open().document.body));
