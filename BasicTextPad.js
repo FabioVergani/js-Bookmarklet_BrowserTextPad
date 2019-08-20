@@ -1,4 +1,6 @@
-(w=>{
+//javascript:
+void((w=>{
+	'use strict';
 	const d=w.document,
 	f=()=>{
 		const b=d.body;
@@ -15,4 +17,4 @@
 	}else{
 		f()
 	}
-})(window.open());
+})(window.open()));
